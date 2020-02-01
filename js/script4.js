@@ -2,7 +2,7 @@
 
 let n= prompt("Число от 0 до 59","");
 console.log(n);
-if(0<n && n<=15){
+if(n<=15){
     console.log("I четверть");
 } else if(15<n && n<=30){
     console.log("II четверть");
